@@ -21,3 +21,7 @@ When I click on the links in the Table of Contents then I am taken to the corres
 ## Usage
 
 Video instructions can be viewed [here](https://drive.google.com/file/d/1k2mZlX5VuIImqsA1pafXmyMrDQtKhUSR/view)!
+
+## Credits
+
+This application uses a starter code set found [here](https://github.com/coding-boot-camp/potential-enigma).

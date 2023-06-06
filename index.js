@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs')
 
+//Inquirer prompts for command line inputs
 inquirer.prompt([
     {
         type: 'input',
@@ -52,7 +53,8 @@ inquirer.prompt([
 ])
 .then(response => {
     console.log(response);
-    fs.writeFile('pro.md', `# ${response.title}
+    //Makes a new markdown file with a template literal that inserts the code and the responses from the inquirer prompts 
+    fs.writeFile('PRO.md', `# ${response.title}
 
 ## Description
     
